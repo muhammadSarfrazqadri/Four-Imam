@@ -1,3 +1,19 @@
+:root {
+    --text-heading-color: rgb(255, 255, 255);
+    --nav-bar-bg-color: brown;
+}
+
+
+
+
+
+
+
+
+/* Home Page */
+
+
+
 * {
     margin: 0%;
     padding: 0%;
@@ -6,7 +22,8 @@
 
 nav {
     display: flex;
-    background-color: brown;justify-content: center;
+    background-color: var(--nav-bar-bg-color);
+    justify-content: center;
     align-items: center;
     justify-content: space-around;
 
@@ -15,7 +32,9 @@ nav {
 
 .logo img {
     height: 10em;
+    opacity: 0.9;
 }
+
 nav ul {
     display: flex;
     width: 65%;
@@ -31,48 +50,241 @@ nav ul li {
     font-family: "Kanit", sans-serif;
 }
 
-a {
+nav ul a {
     text-decoration: none;
     padding: 20px 30px 20px 30px;
     color: whitesmoke;
     border-radius: 40px;
 }
 
-a:hover {
+
+/* Hover Portion */
+
+.logo img {
+    opacity: 1;
+}
+
+
+nav ul a:hover {
     background-color: beige;
     color: brown;
     transition-duration: 0.49s;
 }
 
 
+/* Media query */
+
+
+
 @media screen and (max-width: 576px) {
-    
+
     nav {
         display: flex;
         flex-direction: column;
-        background-color: brown;
+        background-color: var(--nav-bar-bg-color);
         justify-content: center;
         align-items: center;
-    
-    
+
+
     }
-    
-    
+
+
     nav ul {
         justify-content: center;
         align-items: center;
         height: 2.3em;
     }
-    
+
     nav ul li {
         font-size: 22px;
         font-weight: 500;
     }
-    
-    a {
+
+    nav ul a {
         text-decoration: none;
         padding: 0px 12px 0px 12px;
     }
 
 
+}
+
+
+@media screen and (min-width:577px) and (max-width: 900px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--nav-bar-bg-color);
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    nav ul {
+        justify-content: center;
+        align-items: center;
+        height: 2.3em;
+    }
+
+    nav ul li {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        padding: 0px 12px 0px 12px;
+    }
+
+
+}
+
+/*  */
+/*  */
+/*  */
+
+
+/* Nav Bar Complete */
+
+/*  */
+/*  */
+/*  */
+
+
+
+
+/* Content Container */
+
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+.card {
+    height: 20em;
+    width: 35em;
+    margin-top: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: "amiri";
+    background-color: rgba(236, 236, 214, 0.822);
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.877), 5px 5px 10px rgba(202, 199, 199, 0.774) inset;
+}
+
+
+.card h1 {
+    background-color: rgb(25, 189, 140);
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+    color: var(--text-heading-color);
+    font-weight: 1000;
+}
+
+.card h2 {
+    background-color: rgb(25, 189, 140);
+    border-radius: 0px 0px 70px 70px;
+    padding: 20px;
+    color: var(--text-heading-color);
+}
+
+.content-container a {
+    text-decoration: none;
+}
+
+
+
+/* Hover Portion */
+
+
+
+
+.card:hover {
+    height: 20.25em;
+    width: 35.25em;
+    margin-top: 10px;
+    background-color: rgb(236, 236, 214);
+    box-shadow: 10px 10px 5px grey, 5px 5px 10px rgba(202, 199, 199, 0.877) inset;
+}
+
+
+
+/* Media Query Portion */
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        height: max-content;
+        width: 15em;
+        margin-top: 20px;
+        padding: 15px 10px;
+    }
+
+    .card h1 {
+        padding: 10px;
+        color: var(--text-heading-color);
+        font-weight: 800;
+        border-radius: 20px;
+    }
+
+    .card h2 {
+        padding: 10px;
+    }
+
+    .card:hover {
+        height: 27em;
+        width: 15.25em;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width: 900px) {
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        height: max-content;
+        width: 25em;
+        margin-top: 20px;
+        padding: 18px 10px;
+    }
+
+    .card h1 {
+        padding: 10px;
+        color: var(--text-heading-color);
+        font-weight: 900;
+        border-radius: 20px;
+    }
+
+    .card h2 {
+        padding: 15px;
+    }
+
+    .card:hover {
+        height: 23em;
+        width: 25.25em;
+        margin-top: 10px;
+    }
 }
