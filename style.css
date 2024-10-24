@@ -3,35 +3,28 @@
     padding: 0%;
 }
 
+body {
+    background-color: rgb(23, 235, 164);
+}
 
 nav {
-    background-color: brown;
+    background-color: rgb(2, 51, 124);
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.nav-list ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    width: 20em;
-    padding: 2px;
-}
-
-.nav-item {
-    list-style: none;
+    justify-content: space-around;
+    height: 60px;
+    border-bottom: 3px solid rgb(231, 238, 135);
 }
 
 
-.nav-list ul a {
+
+.nav-item a {
     text-decoration: none;
     color: aliceblue;
     font-weight: 700;
     font-size: 22px;
-    padding: 7px;
+    padding: 8px 13px;
     border-radius: 50px;
 }
 
@@ -44,8 +37,105 @@ nav {
 /* hover */
 
 
-.nav-list ul a:hover {
+.nav-item a:hover {
     text-decoration: underline;
-    background-color: rgb(61, 6, 6);
-    transition: 2s;
+    background-color: rgba(250, 248, 248, 0.932);
+    transition: 0.5s;
+    color: rgb(2, 51, 124);
 }
+
+
+
+
+
+
+/* NAV COMPLETED  */
+
+
+
+/* CONTAINER  1 */
+
+.container1{
+    background-image: url(asserts/Quran-.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    border-bottom: 3px solid rgb(231, 238, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content .Welcome {
+    font-size: 5em;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    /* width: 60%; */
+    color: rgb(23, 70, 139);
+    text-transform: uppercase;
+    opacity: 1;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.Platform {
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    width: 60%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    opacity: 1;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#search-bar {
+    height: 45px;
+    width: 25em;
+    margin-left: 5%;
+    border-radius: 20px;
+    text-align: left;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    font-weight: 200;
+    font-size: medium;
+    cursor: pointer;
+}
+
+img {
+    height: 20px;
+
+}
+
+
+/* hover section  */
+
+
+#search-bar:hover {
+    background-color: whitesmoke;
+}
+
+
+/* CONTAINER 1 COMPLETED */
+
+
+
+
+/* CONTAINER 2 START */
+
+
+.container2{
+    background-color: rgb(227, 245, 203);
+    border-radius: 20px;
+    height: 35em;
+    margin: 5px;
+    border: 1px solid rgb(189, 183, 183);
+    width: 100%;
+}
+
