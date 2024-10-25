@@ -13,7 +13,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    height: 60px;
+    height: 5em;
     border-bottom: 3px solid rgb(231, 238, 135);
 }
 
@@ -24,13 +24,14 @@ nav {
     color: aliceblue;
     font-weight: 700;
     font-size: 22px;
-    padding: 8px 13px;
+    padding: 13px;
     border-radius: 50px;
+    transition: 0.4s;
 }
 
 .logo img  {
-    height: 37px;
-    width: 8em;
+    height: 4.5em;
+    width: auto;
 }
 
 
@@ -40,7 +41,6 @@ nav {
 .nav-item a:hover {
     text-decoration: underline;
     background-color: rgba(250, 248, 248, 0.932);
-    transition: 0.5s;
     color: rgb(2, 51, 124);
 }
 
@@ -72,24 +72,24 @@ nav {
 .content .Welcome {
     font-size: 5em;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: "Spicy Rice", serif;
     text-align: center;
     /* width: 60%; */
     color: rgb(23, 70, 139);
     text-transform: uppercase;
     opacity: 1;
-    -webkit-text-stroke: 3px;
+    -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .Platform {
     font-size: 1.5em;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Ubuntu", sans-serif;
     text-align: center;
     width: 60%;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
+    text-transform: capitalize;
     opacity: 1;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
@@ -98,14 +98,18 @@ nav {
 #search-bar {
     height: 45px;
     width: 25em;
-    margin-left: 5%;
+    margin-left: 2%;
     border-radius: 20px;
     text-align: left;
+    background-color: white;
+    border: 3px solid rgb(26, 75, 148);
     padding-right: 1.5em;
     padding-left: 1.5em;
-    font-weight: 200;
+    font-weight: 400;
+    color: rgb(48, 50, 51);
     font-size: medium;
     cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 img {
@@ -118,8 +122,9 @@ img {
 
 
 #search-bar:hover {
-    background-color: whitesmoke;
+    background-color:whitesmoke;
 }
+
 
 
 /* CONTAINER 1 COMPLETED */
@@ -133,13 +138,143 @@ img {
 .contact-container{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    height: 35em;
-    margin: 10px;
+    /* height: 35em; */
+    margin: 20px;
     border: 1px solid rgb(172, 157, 157);
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-header h1 {
+    font-size: 2.2rem;
+    color: #333;
+}
+.contact-header p {
+    color: #777;
+    font-size: 1rem;
+    font-family: "Kavivanar", cursive;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-bottom: 3px solid rgb(8, 103, 167);
+    margin-bottom: 20px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 280px;
+}
+
+.contact-info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-family:  "Rubik", sans-serif;
+    color: #333;
+}
+.contact-info p {
+    font-size: 0.95rem;
+    font-family:  "Dosis", sans-serif;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #1a73e8;
+    font-family: "Dancing Script", cursive;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* CONTACT FORM */
+
+
+.contact-form {
+    border: 5px double rgb(185, 176, 176);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: black 1px 1px 3px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.contact-form input {
+    width: 97%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333;
+}
+
+.contact-form textarea{
+    width: 97%;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* SOCIAL LINKS */
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-links a {
+    font-size: 1.5rem;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.social-links a img {
+    height: 1.5em;
+}
