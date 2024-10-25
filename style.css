@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(23, 235, 164);
+    background-color: rgb(10, 119, 101);
 }
 
 nav {
@@ -127,15 +127,19 @@ img {
 
 
 
-/* CONTAINER 2 START */
+/* CONTACT CONTAINER START */
 
 
-.container2{
-    background-color: rgb(227, 245, 203);
+.contact-container{
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     height: 35em;
-    margin: 5px;
-    border: 1px solid rgb(189, 183, 183);
-    width: 100%;
+    margin: 10px;
+    border: 1px solid rgb(172, 157, 157);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
