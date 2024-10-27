@@ -632,7 +632,7 @@ img {
         display: none;
     }
 
-    
+
     .menu-btn {
         display: flex;
         flex-direction: column;
@@ -882,7 +882,7 @@ img {
         display: none;
     }
 
-    
+
     .menu-btn {
         display: flex;
         flex-direction: column;
@@ -1115,56 +1115,39 @@ img {
 
 @media screen and (min-width:1025px) and (max-width: 1200px) {
 
-    * {
-        margin: 0%;
-        padding: 0%;
-    }
-
-    body {
-        background-color: rgb(10, 119, 101);
-    }
-
     nav {
-        background-color: rgb(2, 51, 124);
+        justify-content: space-evenly;
+    }
+
+    #scholars {
+        display: none;
+    }
+
+    #articles {
+        display: none;
+    }
+
+    #posts {
+        display: none;
+    }
+
+
+    .menu-btn {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-around;
-        height: 5em;
-        border-bottom: 3px solid rgb(231, 238, 135);
+        flex-direction: column;
+        gap: 5px;
+        /* border: 3px solid white; */
+        padding: 8px;
+        border-radius: 15px;
     }
 
-
-
-    .nav-item a {
-        text-decoration: none;
-        color: aliceblue;
-        font-weight: 700;
-        font-size: 22px;
-        padding: 13px;
-        border-radius: 50px;
-        transition: 0.4s;
+    .menu-btn-span {
+        background-color: white;
+        border: 0.1px solid black;
+        height: 4px;
+        width: 45px;
+        border-radius: 20px;
     }
-
-    .logo img {
-        height: 4.5em;
-        width: auto;
-    }
-
-
-    /* hover */
-
-
-    .nav-item a:hover {
-        text-decoration: underline;
-        background-color: rgba(250, 248, 248, 0.932);
-        color: rgb(2, 51, 124);
-    }
-
-
-
-
-
 
     /* NAV COMPLETED  */
 
@@ -1173,75 +1156,37 @@ img {
     /* CONTAINER  1 */
 
     .container1 {
-        background-image: url(asserts/Quran-.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
         border-bottom: 3px solid rgb(231, 238, 135);
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 75px;
+    }
 
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
     }
 
     .content .Welcome {
-        font-size: 5em;
-        font-weight: 700;
-        font-family: "Spicy Rice", serif;
-        text-align: center;
-        /* width: 60%; */
-        color: rgb(23, 70, 139);
-        text-transform: uppercase;
-        opacity: 1;
-        -webkit-text-stroke: 1px;
-        -webkit-text-stroke-color: rgb(255, 255, 255);
+        font-size: 6em;
+        font-weight: 800;
     }
 
     .Platform {
-        font-size: 1.5em;
-        font-weight: 600;
-        font-family: "Ubuntu", sans-serif;
-        text-align: center;
-        width: 60%;
-        color: rgb(255, 255, 255);
-        text-transform: capitalize;
-        opacity: 1;
-        -webkit-text-stroke: 1px;
-        -webkit-text-stroke-color: rgb(0, 0, 0);
+        font-size: 1.8em;
+        font-weight: 700;
     }
 
     #search-bar {
-        height: 45px;
-        width: 25em;
-        margin-left: 2%;
-        border-radius: 20px;
-        text-align: left;
-        background-color: white;
-        border: 3px solid rgb(26, 75, 148);
-        padding-right: 1.5em;
-        padding-left: 1.5em;
-        font-weight: 400;
-        color: rgb(48, 50, 51);
-        font-size: medium;
-        cursor: pointer;
-        font-family: "Josefin Sans", sans-serif;
+        height: 53px;
+        width: 35em;
+        margin-left: 0%;
+        font-weight: 500;
     }
-
-    img {
-        height: 20px;
-
-    }
-
-
-    /* hover section  */
-
-
-    #search-bar:hover {
-        background-color: whitesmoke;
-    }
-
 
 
     /* CONTAINER 1 COMPLETED */
@@ -1256,12 +1201,12 @@ img {
         background-color: rgb(255, 255, 255);
         border-radius: 20px;
         /* height: 35em; */
-        margin: 20px;
+        margin: 10px;
         border: 1px solid rgb(172, 157, 157);
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        padding: 40px;
+        padding: 25px;
         border-radius: 8px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     }
@@ -1415,7 +1360,6 @@ img {
 /* FOR LAPTOP AND SMALL DESKTOPS */
 
 @media screen and (min-width:1201px) and (max-width: 1600px) {
-
     * {
         margin: 0%;
         padding: 0%;
@@ -1483,12 +1427,12 @@ img {
         border-bottom: 3px solid rgb(231, 238, 135);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-
+        gap: 30px;
+        justify-content: start;
     }
 
     .content .Welcome {
-        font-size: 5em;
+        font-size: 8em;
         font-weight: 700;
         font-family: "Spicy Rice", serif;
         text-align: center;
@@ -1501,8 +1445,8 @@ img {
     }
 
     .Platform {
-        font-size: 1.5em;
-        font-weight: 600;
+        font-size: 2em;
+        font-weight: 700;
         font-family: "Ubuntu", sans-serif;
         text-align: center;
         width: 60%;
@@ -1514,9 +1458,9 @@ img {
     }
 
     #search-bar {
-        height: 45px;
-        width: 25em;
-        margin-left: 2%;
+        height: 53px;
+        width: 45em;
+        margin-left: 20%;
         border-radius: 20px;
         text-align: left;
         background-color: white;
@@ -1636,7 +1580,7 @@ img {
         box-shadow: black 1px 1px 3px;
     }
 
-    .contact-form h3 {
+    .contact-form h2 {
         text-align: center;
         font-family: "Fjalla One", sans-serif;
     }
@@ -1717,7 +1661,6 @@ img {
 
 @media screen and (min-width: 1601px) {
 
-
     * {
         margin: 0%;
         padding: 0%;
@@ -1785,12 +1728,12 @@ img {
         border-bottom: 3px solid rgb(231, 238, 135);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-
+        gap: 30px;
+        justify-content: start;
     }
 
     .content .Welcome {
-        font-size: 5em;
+        font-size: 8em;
         font-weight: 700;
         font-family: "Spicy Rice", serif;
         text-align: center;
@@ -1803,8 +1746,8 @@ img {
     }
 
     .Platform {
-        font-size: 1.5em;
-        font-weight: 600;
+        font-size: 2em;
+        font-weight: 700;
         font-family: "Ubuntu", sans-serif;
         text-align: center;
         width: 60%;
@@ -1816,9 +1759,9 @@ img {
     }
 
     #search-bar {
-        height: 45px;
-        width: 25em;
-        margin-left: 2%;
+        height: 53px;
+        width: 45em;
+        margin-left: 20%;
         border-radius: 20px;
         text-align: left;
         background-color: white;
@@ -1938,7 +1881,7 @@ img {
         box-shadow: black 1px 1px 3px;
     }
 
-    .contact-form h3 {
+    .contact-form h2 {
         text-align: center;
         font-family: "Fjalla One", sans-serif;
     }
