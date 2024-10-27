@@ -393,13 +393,13 @@ img {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        gap: 45px;
+        gap: 100px;
     }
 
     .content {
         display: flex;
         flex-direction: column;
-        gap: 45px;
+        gap: 50px;
     }
 
     
