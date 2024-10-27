@@ -278,3 +278,1827 @@ img {
 .social-links a img {
     height: 1.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile screen */
+
+@media screen and (max-width: 480px) {
+    
+    nav {
+        background-color: rgb(2, 51, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 5em;
+    }
+    
+    
+    
+    .nav-item a {
+        display: none;
+    }
+    
+    .menu-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        border: 3px solid white;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .menu-btn-span {
+        background-color: white;
+        height: 5px;
+        width: 3em;
+        border-radius: 20px;
+    }
+
+    
+    /* hover */
+    
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color: rgba(250, 248, 248, 0.932);
+        color: rgb(2, 51, 124);
+    }
+    
+    
+    
+    
+    
+    
+    /* NAV COMPLETED  */
+    
+    
+    
+    /* CONTAINER  1 */
+    
+    .container1{
+        background-image: url(asserts/Quran-.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .content .Welcome {
+        font-size: 5em;
+        font-weight: 700;
+        font-family: "Spicy Rice", serif;
+        text-align: center;
+        /* width: 60%; */
+        color: rgb(23, 70, 139);
+        text-transform: uppercase;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    
+    .Platform {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+    #search-bar {
+        height: 45px;
+        width: 25em;
+        margin-left: 2%;
+        border-radius: 20px;
+        text-align: left;
+        background-color: white;
+        border: 3px solid rgb(26, 75, 148);
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 400;
+        color: rgb(48, 50, 51);
+        font-size: medium;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    img {
+        height: 20px;
+    
+    }
+    
+    
+    /* hover section  */
+    
+    
+    #search-bar:hover {
+        background-color:whitesmoke;
+    }
+    
+    
+    
+    /* CONTAINER 1 COMPLETED */
+    
+    
+    
+    
+    /* CONTACT CONTAINER START */
+    
+    
+    .contact-container{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        /* height: 35em; */
+        margin: 20px;
+        border: 1px solid rgb(172, 157, 157);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .contact-header h1 {
+        font-size: 2.2rem;
+        color: #333;
+    }
+    .contact-header p {
+        color: #777;
+        font-size: 1rem;
+        font-family: "Kavivanar", cursive;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-bottom: 3px solid rgb(8, 103, 167);
+        margin-bottom: 20px;
+    }
+    
+    .contact-info, .contact-form {
+        flex: 1;
+        min-width: 280px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family:  "Rubik", sans-serif;
+        color: #333;
+    }
+    .contact-info p {
+        font-size: 0.95rem;
+        font-family:  "Dosis", sans-serif;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #1a73e8;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* CONTACT FORM */
+    
+    
+    .contact-form {
+        border: 5px double rgb(185, 176, 176);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: black 1px 1px 3px;
+    }
+    
+    .contact-form h3 {
+        text-align: center;
+        font-family: "Fjalla One", sans-serif;
+    }
+    
+    .contact-form input {
+        width: 97%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333;
+    }
+    
+    .contact-form textarea{
+        width: 97%;
+        font-family: "Josefin Sans", sans-serif;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        color: #333;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* SOCIAL LINKS */
+    
+    .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-links a {
+        font-size: 1.5rem;
+        color: #555;
+        transition: color 0.3s;
+    }
+    
+    .social-links a img {
+        height: 1.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile lnadscape screen */
+
+@media screen and (min-width:481px) and (max-width: 767px) {
+
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: rgb(10, 119, 101);
+    }
+    
+    nav {
+        background-color: rgb(2, 51, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 5em;
+        border-bottom: 3px solid rgb(231, 238, 135);
+    }
+    
+    
+    
+    .nav-item a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 13px;
+        border-radius: 50px;
+        transition: 0.4s;
+    }
+    
+    .logo img  {
+        height: 4.5em;
+        width: auto;
+    }
+    
+    
+    /* hover */
+    
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color: rgba(250, 248, 248, 0.932);
+        color: rgb(2, 51, 124);
+    }
+    
+    
+    
+    
+    
+    
+    /* NAV COMPLETED  */
+    
+    
+    
+    /* CONTAINER  1 */
+    
+    .container1{
+        background-image: url(asserts/Quran-.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .content .Welcome {
+        font-size: 5em;
+        font-weight: 700;
+        font-family: "Spicy Rice", serif;
+        text-align: center;
+        /* width: 60%; */
+        color: rgb(23, 70, 139);
+        text-transform: uppercase;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    
+    .Platform {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+    #search-bar {
+        height: 45px;
+        width: 25em;
+        margin-left: 2%;
+        border-radius: 20px;
+        text-align: left;
+        background-color: white;
+        border: 3px solid rgb(26, 75, 148);
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 400;
+        color: rgb(48, 50, 51);
+        font-size: medium;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    img {
+        height: 20px;
+    
+    }
+    
+    
+    /* hover section  */
+    
+    
+    #search-bar:hover {
+        background-color:whitesmoke;
+    }
+    
+    
+    
+    /* CONTAINER 1 COMPLETED */
+    
+    
+    
+    
+    /* CONTACT CONTAINER START */
+    
+    
+    .contact-container{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        /* height: 35em; */
+        margin: 20px;
+        border: 1px solid rgb(172, 157, 157);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .contact-header h1 {
+        font-size: 2.2rem;
+        color: #333;
+    }
+    .contact-header p {
+        color: #777;
+        font-size: 1rem;
+        font-family: "Kavivanar", cursive;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-bottom: 3px solid rgb(8, 103, 167);
+        margin-bottom: 20px;
+    }
+    
+    .contact-info, .contact-form {
+        flex: 1;
+        min-width: 280px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family:  "Rubik", sans-serif;
+        color: #333;
+    }
+    .contact-info p {
+        font-size: 0.95rem;
+        font-family:  "Dosis", sans-serif;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #1a73e8;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* CONTACT FORM */
+    
+    
+    .contact-form {
+        border: 5px double rgb(185, 176, 176);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: black 1px 1px 3px;
+    }
+    
+    .contact-form h3 {
+        text-align: center;
+        font-family: "Fjalla One", sans-serif;
+    }
+    
+    .contact-form input {
+        width: 97%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333;
+    }
+    
+    .contact-form textarea{
+        width: 97%;
+        font-family: "Josefin Sans", sans-serif;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        color: #333;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* SOCIAL LINKS */
+    
+    .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-links a {
+        font-size: 1.5rem;
+        color: #555;
+        transition: color 0.3s;
+    }
+    
+    .social-links a img {
+        height: 1.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOR TABLET PORTRAIT SCREEN */
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: rgb(10, 119, 101);
+    }
+    
+    nav {
+        background-color: rgb(2, 51, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 5em;
+        border-bottom: 3px solid rgb(231, 238, 135);
+    }
+    
+    
+    
+    .nav-item a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 13px;
+        border-radius: 50px;
+        transition: 0.4s;
+    }
+    
+    .logo img  {
+        height: 4.5em;
+        width: auto;
+    }
+    
+    
+    /* hover */
+    
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color: rgba(250, 248, 248, 0.932);
+        color: rgb(2, 51, 124);
+    }
+    
+    
+    
+    
+    
+    
+    /* NAV COMPLETED  */
+    
+    
+    
+    /* CONTAINER  1 */
+    
+    .container1{
+        background-image: url(asserts/Quran-.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .content .Welcome {
+        font-size: 5em;
+        font-weight: 700;
+        font-family: "Spicy Rice", serif;
+        text-align: center;
+        /* width: 60%; */
+        color: rgb(23, 70, 139);
+        text-transform: uppercase;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    
+    .Platform {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+    #search-bar {
+        height: 45px;
+        width: 25em;
+        margin-left: 2%;
+        border-radius: 20px;
+        text-align: left;
+        background-color: white;
+        border: 3px solid rgb(26, 75, 148);
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 400;
+        color: rgb(48, 50, 51);
+        font-size: medium;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    img {
+        height: 20px;
+    
+    }
+    
+    
+    /* hover section  */
+    
+    
+    #search-bar:hover {
+        background-color:whitesmoke;
+    }
+    
+    
+    
+    /* CONTAINER 1 COMPLETED */
+    
+    
+    
+    
+    /* CONTACT CONTAINER START */
+    
+    
+    .contact-container{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        /* height: 35em; */
+        margin: 20px;
+        border: 1px solid rgb(172, 157, 157);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .contact-header h1 {
+        font-size: 2.2rem;
+        color: #333;
+    }
+    .contact-header p {
+        color: #777;
+        font-size: 1rem;
+        font-family: "Kavivanar", cursive;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-bottom: 3px solid rgb(8, 103, 167);
+        margin-bottom: 20px;
+    }
+    
+    .contact-info, .contact-form {
+        flex: 1;
+        min-width: 280px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family:  "Rubik", sans-serif;
+        color: #333;
+    }
+    .contact-info p {
+        font-size: 0.95rem;
+        font-family:  "Dosis", sans-serif;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #1a73e8;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* CONTACT FORM */
+    
+    
+    .contact-form {
+        border: 5px double rgb(185, 176, 176);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: black 1px 1px 3px;
+    }
+    
+    .contact-form h3 {
+        text-align: center;
+        font-family: "Fjalla One", sans-serif;
+    }
+    
+    .contact-form input {
+        width: 97%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333;
+    }
+    
+    .contact-form textarea{
+        width: 97%;
+        font-family: "Josefin Sans", sans-serif;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        color: #333;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* SOCIAL LINKS */
+    
+    .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-links a {
+        font-size: 1.5rem;
+        color: #555;
+        transition: color 0.3s;
+    }
+    
+    .social-links a img {
+        height: 1.5em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOR TABLATES LANDSCAPE MODE  */
+
+@media screen and (min-width:1025px) and (max-width: 1200px) {
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: rgb(10, 119, 101);
+    }
+    
+    nav {
+        background-color: rgb(2, 51, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 5em;
+        border-bottom: 3px solid rgb(231, 238, 135);
+    }
+    
+    
+    
+    .nav-item a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 13px;
+        border-radius: 50px;
+        transition: 0.4s;
+    }
+    
+    .logo img  {
+        height: 4.5em;
+        width: auto;
+    }
+    
+    
+    /* hover */
+    
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color: rgba(250, 248, 248, 0.932);
+        color: rgb(2, 51, 124);
+    }
+    
+    
+    
+    
+    
+    
+    /* NAV COMPLETED  */
+    
+    
+    
+    /* CONTAINER  1 */
+    
+    .container1{
+        background-image: url(asserts/Quran-.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .content .Welcome {
+        font-size: 5em;
+        font-weight: 700;
+        font-family: "Spicy Rice", serif;
+        text-align: center;
+        /* width: 60%; */
+        color: rgb(23, 70, 139);
+        text-transform: uppercase;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    
+    .Platform {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+    #search-bar {
+        height: 45px;
+        width: 25em;
+        margin-left: 2%;
+        border-radius: 20px;
+        text-align: left;
+        background-color: white;
+        border: 3px solid rgb(26, 75, 148);
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 400;
+        color: rgb(48, 50, 51);
+        font-size: medium;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    img {
+        height: 20px;
+    
+    }
+    
+    
+    /* hover section  */
+    
+    
+    #search-bar:hover {
+        background-color:whitesmoke;
+    }
+    
+    
+    
+    /* CONTAINER 1 COMPLETED */
+    
+    
+    
+    
+    /* CONTACT CONTAINER START */
+    
+    
+    .contact-container{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        /* height: 35em; */
+        margin: 20px;
+        border: 1px solid rgb(172, 157, 157);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .contact-header h1 {
+        font-size: 2.2rem;
+        color: #333;
+    }
+    .contact-header p {
+        color: #777;
+        font-size: 1rem;
+        font-family: "Kavivanar", cursive;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-bottom: 3px solid rgb(8, 103, 167);
+        margin-bottom: 20px;
+    }
+    
+    .contact-info, .contact-form {
+        flex: 1;
+        min-width: 280px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family:  "Rubik", sans-serif;
+        color: #333;
+    }
+    .contact-info p {
+        font-size: 0.95rem;
+        font-family:  "Dosis", sans-serif;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #1a73e8;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* CONTACT FORM */
+    
+    
+    .contact-form {
+        border: 5px double rgb(185, 176, 176);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: black 1px 1px 3px;
+    }
+    
+    .contact-form h3 {
+        text-align: center;
+        font-family: "Fjalla One", sans-serif;
+    }
+    
+    .contact-form input {
+        width: 97%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333;
+    }
+    
+    .contact-form textarea{
+        width: 97%;
+        font-family: "Josefin Sans", sans-serif;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        color: #333;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* SOCIAL LINKS */
+    
+    .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-links a {
+        font-size: 1.5rem;
+        color: #555;
+        transition: color 0.3s;
+    }
+    
+    .social-links a img {
+        height: 1.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOR LAPTOP AND SMALL DESKTOPS */
+
+@media screen and (min-width:1201px) and (max-width: 1600px) {
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: rgb(10, 119, 101);
+    }
+    
+    nav {
+        background-color: rgb(2, 51, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 5em;
+        border-bottom: 3px solid rgb(231, 238, 135);
+    }
+    
+    
+    
+    .nav-item a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 13px;
+        border-radius: 50px;
+        transition: 0.4s;
+    }
+    
+    .logo img  {
+        height: 4.5em;
+        width: auto;
+    }
+    
+    
+    /* hover */
+    
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color: rgba(250, 248, 248, 0.932);
+        color: rgb(2, 51, 124);
+    }
+    
+    
+    
+    
+    
+    
+    /* NAV COMPLETED  */
+    
+    
+    
+    /* CONTAINER  1 */
+    
+    .container1{
+        background-image: url(asserts/Quran-.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .content .Welcome {
+        font-size: 5em;
+        font-weight: 700;
+        font-family: "Spicy Rice", serif;
+        text-align: center;
+        /* width: 60%; */
+        color: rgb(23, 70, 139);
+        text-transform: uppercase;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    
+    .Platform {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+    #search-bar {
+        height: 45px;
+        width: 25em;
+        margin-left: 2%;
+        border-radius: 20px;
+        text-align: left;
+        background-color: white;
+        border: 3px solid rgb(26, 75, 148);
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 400;
+        color: rgb(48, 50, 51);
+        font-size: medium;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    img {
+        height: 20px;
+    
+    }
+    
+    
+    /* hover section  */
+    
+    
+    #search-bar:hover {
+        background-color:whitesmoke;
+    }
+    
+    
+    
+    /* CONTAINER 1 COMPLETED */
+    
+    
+    
+    
+    /* CONTACT CONTAINER START */
+    
+    
+    .contact-container{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        /* height: 35em; */
+        margin: 20px;
+        border: 1px solid rgb(172, 157, 157);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .contact-header h1 {
+        font-size: 2.2rem;
+        color: #333;
+    }
+    .contact-header p {
+        color: #777;
+        font-size: 1rem;
+        font-family: "Kavivanar", cursive;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-bottom: 3px solid rgb(8, 103, 167);
+        margin-bottom: 20px;
+    }
+    
+    .contact-info, .contact-form {
+        flex: 1;
+        min-width: 280px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family:  "Rubik", sans-serif;
+        color: #333;
+    }
+    .contact-info p {
+        font-size: 0.95rem;
+        font-family:  "Dosis", sans-serif;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #1a73e8;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* CONTACT FORM */
+    
+    
+    .contact-form {
+        border: 5px double rgb(185, 176, 176);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: black 1px 1px 3px;
+    }
+    
+    .contact-form h3 {
+        text-align: center;
+        font-family: "Fjalla One", sans-serif;
+    }
+    
+    .contact-form input {
+        width: 97%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333;
+    }
+    
+    .contact-form textarea{
+        width: 97%;
+        font-family: "Josefin Sans", sans-serif;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        color: #333;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* SOCIAL LINKS */
+    
+    .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-links a {
+        font-size: 1.5rem;
+        color: #555;
+        transition: color 0.3s;
+    }
+    
+    .social-links a img {
+        height: 1.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOR LARGE DESKTOPS */
+
+@media screen and (min-width: 1601px) {
+
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: rgb(10, 119, 101);
+    }
+    
+    nav {
+        background-color: rgb(2, 51, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 5em;
+        border-bottom: 3px solid rgb(231, 238, 135);
+    }
+    
+    
+    
+    .nav-item a {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 13px;
+        border-radius: 50px;
+        transition: 0.4s;
+    }
+    
+    .logo img  {
+        height: 4.5em;
+        width: auto;
+    }
+    
+    
+    /* hover */
+    
+    
+    .nav-item a:hover {
+        text-decoration: underline;
+        background-color: rgba(250, 248, 248, 0.932);
+        color: rgb(2, 51, 124);
+    }
+    
+    
+    
+    
+    
+    
+    /* NAV COMPLETED  */
+    
+    
+    
+    /* CONTAINER  1 */
+    
+    .container1{
+        background-image: url(asserts/Quran-.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .content .Welcome {
+        font-size: 5em;
+        font-weight: 700;
+        font-family: "Spicy Rice", serif;
+        text-align: center;
+        /* width: 60%; */
+        color: rgb(23, 70, 139);
+        text-transform: uppercase;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    
+    .Platform {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        width: 60%;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        opacity: 1;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+    #search-bar {
+        height: 45px;
+        width: 25em;
+        margin-left: 2%;
+        border-radius: 20px;
+        text-align: left;
+        background-color: white;
+        border: 3px solid rgb(26, 75, 148);
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-weight: 400;
+        color: rgb(48, 50, 51);
+        font-size: medium;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    img {
+        height: 20px;
+    
+    }
+    
+    
+    /* hover section  */
+    
+    
+    #search-bar:hover {
+        background-color:whitesmoke;
+    }
+    
+    
+    
+    /* CONTAINER 1 COMPLETED */
+    
+    
+    
+    
+    /* CONTACT CONTAINER START */
+    
+    
+    .contact-container{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        /* height: 35em; */
+        margin: 20px;
+        border: 1px solid rgb(172, 157, 157);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .contact-header h1 {
+        font-size: 2.2rem;
+        color: #333;
+    }
+    .contact-header p {
+        color: #777;
+        font-size: 1rem;
+        font-family: "Kavivanar", cursive;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        border-bottom: 3px solid rgb(8, 103, 167);
+        margin-bottom: 20px;
+    }
+    
+    .contact-info, .contact-form {
+        flex: 1;
+        min-width: 280px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family:  "Rubik", sans-serif;
+        color: #333;
+    }
+    .contact-info p {
+        font-size: 0.95rem;
+        font-family:  "Dosis", sans-serif;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .contact-info a {
+        margin-bottom: 10px;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #1a73e8;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /* CONTACT FORM */
+    
+    
+    .contact-form {
+        border: 5px double rgb(185, 176, 176);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: black 1px 1px 3px;
+    }
+    
+    .contact-form h3 {
+        text-align: center;
+        font-family: "Fjalla One", sans-serif;
+    }
+    
+    .contact-form input {
+        width: 97%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333;
+    }
+    
+    .contact-form textarea{
+        width: 97%;
+        font-family: "Josefin Sans", sans-serif;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        color: #333;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* SOCIAL LINKS */
+    
+    .social-links {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-links a {
+        font-size: 1.5rem;
+        color: #555;
+        transition: color 0.3s;
+    }
+    
+    .social-links a img {
+        height: 1.5em;
+    }
+
+}
