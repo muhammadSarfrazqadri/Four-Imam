@@ -663,6 +663,7 @@ img {
         justify-content: flex-start;
         align-items: center;
         gap: 75px;
+        height: 45em;
     }
 
     .content {
