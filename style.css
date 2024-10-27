@@ -350,14 +350,15 @@ img {
     .menu-btn{
         display: flex;
         flex-direction: column;
-        gap: 7px;
-        border: 3px solid white;
+        gap: 5px;
+        /* border: 3px solid white; */
         padding: 8px;
         border-radius: 15px;
     }
 
     .menu-btn-span {
         background-color: white;
+        border: 0.1px solid black;
         height: 4px;
         width: 45px;
         border-radius: 20px;
@@ -372,10 +373,6 @@ img {
         background-color: rgba(250, 248, 248, 0.932);
         color: rgb(2, 51, 124);
     }
-    
-    
-    
-    
     
     
     /* NAV COMPLETED  */
@@ -394,29 +391,34 @@ img {
         border-bottom: 3px solid rgb(231, 238, 135);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    
+        justify-content: flex-start;
+        align-items: center;
+        gap: 45px;
     }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
     
     .content .Welcome {
-        font-size: 5em;
-        font-weight: 700;
+        font-size: 3em;
+        font-weight: 600;
         font-family: "Spicy Rice", serif;
-        text-align: center;
-        /* width: 60%; */
         color: rgb(23, 70, 139);
         text-transform: uppercase;
         opacity: 1;
-        -webkit-text-stroke: 1px;
+        -webkit-text-stroke: 0.5px;
         -webkit-text-stroke-color: rgb(255, 255, 255);
     }
     
     .Platform {
-        font-size: 1.5em;
+        font-size: 1.25em;
         font-weight: 600;
         font-family: "Ubuntu", sans-serif;
-        text-align: center;
-        width: 60%;
+        width: 100%;
         color: rgb(255, 255, 255);
         text-transform: capitalize;
         opacity: 1;
@@ -425,8 +427,8 @@ img {
     }
     
     #search-bar {
-        height: 45px;
-        width: 25em;
+        height: 47px;
+        width:20em;
         margin-left: 2%;
         border-radius: 20px;
         text-align: left;
@@ -443,7 +445,7 @@ img {
     
     img {
         height: 20px;
-    
+        
     }
     
     
