@@ -333,7 +333,6 @@ img {
         display: flex;
         flex-direction: column;
         gap: 5px;
-        /* border: 3px solid white; */
         padding: 8px;
         border-radius: 15px;
     }
@@ -375,13 +374,13 @@ img {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        gap: 75px;
+        gap: 65px;
     }
 
     .content {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 40px;
     }
 
 
@@ -617,6 +616,7 @@ img {
 
 @media screen and (min-width:481px) and (max-width: 767px) {
 
+
     nav {
         justify-content: space-around;
     }
@@ -633,38 +633,64 @@ img {
         display: none;
     }
 
+    
+    .menu-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        /* border: 3px solid white; */
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    .menu-btn-span {
+        background-color: white;
+        border: 0.1px solid black;
+        height: 4px;
+        width: 45px;
+        border-radius: 20px;
+    }
+
+    /* NAV COMPLETED  */
 
 
-    .nav-item a {
-        text-decoration: none;
-        color: aliceblue;
+
+    /* CONTAINER  1 */
+
+    .container1 {
+        border-bottom: 3px solid rgb(231, 238, 135);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 75px;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .content .Welcome {
+        font-size: 6em;
+        font-weight: 800;
+    }
+
+    .Platform {
+        font-size: 1.8em;
         font-weight: 700;
-        font-size: 22px;
-        padding: 13px;
-        border-radius: 50px;
-        transition: 0.4s;
     }
 
-    .logo img {
-        height: 4.5em;
-        width: auto;
+    #search-bar {
+        height: 53px;
+        width: 35em;
+        margin-left: 0%;
+        font-weight: 500;
     }
 
-
-    /* hover */
-
-
-    .nav-item a:hover {
-        text-decoration: underline;
-        background-color: rgba(250, 248, 248, 0.932);
-        color: rgb(2, 51, 124);
-    }
-
-
-
-
-
-
+    
     /* NAV COMPLETED  */
 
 
@@ -918,7 +944,7 @@ img {
 @media screen and (min-width:768px) and (max-width: 1024px) {
 
     nav {
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     #scholars {
@@ -989,20 +1015,6 @@ img {
         margin-left: 0%;
         font-weight: 500;
     }
-
-    img {
-        height: 20px;
-
-    }
-
-
-    /* hover section  */
-
-
-    #search-bar:hover {
-        background-color: whitesmoke;
-    }
-
 
 
     /* CONTAINER 1 COMPLETED */
